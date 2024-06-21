@@ -1,0 +1,57 @@
+
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+
+}
+.formHedging{
+  border-bottom: solid 1px #545e91;
+  margin-bottom: 0px;
+}
+
+.formWrapper {
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+
+}.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.registerBtn {
+  background: #03fd63;
+  width: 100px;
+  margin-left: 75%;
+}
+.registerBtn:hover{
+  background: rgb(2, 128, 50);
+}
+.error {
+  color: red;
+  font-size: 0.875rem;
+}
